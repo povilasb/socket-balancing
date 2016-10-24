@@ -23,4 +23,6 @@ Usage
     make pyenv
     pyenv/bin/supervisord -c supervisord.conf
 
+Every request is handled by a different process:
 
+.. image:: balancing.gif
